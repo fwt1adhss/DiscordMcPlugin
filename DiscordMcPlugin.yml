@@ -1,0 +1,20 @@
+# DiscordMcPlugin - By fwt1adhss.dev for Minecraft Java 1.21.1
+# A simple /discord command for your Minecraft server
+
+message:
+  # If the message should be presented to players when joining the server
+  presentOnJoin: false
+
+  # The message sent to players
+  text:
+    - '&aJoin our Discord server: https://discord.gg/invite-link'
+
+  # Set the message that is shown when hovering over the text
+  textHover: "Click to go to our discord"
+
+  # What link players will be prompted with when they click it
+  textClick: "https://discord.gg/invite-link"
+
+sound:
+  enabled: false
+  value: "ENTITY_EXPERIENCE_ORB_PICKUP"
